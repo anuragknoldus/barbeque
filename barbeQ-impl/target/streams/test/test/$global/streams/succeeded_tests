@@ -1,0 +1,6 @@
+#Successful Tests
+#Sat Mar 30 22:43:45 IST 2019
+com.knoldus.barbeque.BarbequeServiceImplTest=1553966025568
+com.knoldus.barbeque.dao.impl.BarbequeReadDAOImplTest=1553965981184
+com.knoldus.barbeque.es.BarbequeEventSourcingProcessorTest=1553966023940
+com.knoldus.barbeque.entity.BarbequeEntityTest=1553965983272

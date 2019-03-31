@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xms256M, -Xmx512M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xms256M, -Xmx512M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xms256M, -Xmx512M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xms256M, -Xmx512M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.knoldus.barbeque.dao.impl.BarbequeReadDAOImplTest, sbt.ForkMain$SubclassFingerscan@7f470ed1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbequeReadDAOImplTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbeque Read DAO[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get order status by orderId[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get order status list empty when orderId is not present[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.knoldus.barbeque.entity.BarbequeEntityTest, sbt.ForkMain$SubclassFingerscan@2c5ddfce, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbequeEntityTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbeque Entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle Create Barbeque Order Data[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.knoldus.barbeque.es.BarbequeEventSourcingProcessorTest, sbt.ForkMain$SubclassFingerscan@1902f8ff, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbequeEventSourcingProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbequeEsProcessor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send barbeque order data to barbeque entity[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.knoldus.barbeque.BarbequeServiceImplTest, sbt.ForkMain$SubclassFingerscan@48304515, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbequeServiceImplTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBarbeque service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should retrieve health of the service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should retrieve version of the service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to get the response for the given orderId[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be able to get the response for the given orderId[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to successfully save event manually[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 minute, 30 seconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.barbeque.entity.BarbequeEntityTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.barbeque.dao.impl.BarbequeReadDAOImplTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.barbeque.es.BarbequeEventSourcingProcessorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.barbeque.BarbequeServiceImplTest[0m

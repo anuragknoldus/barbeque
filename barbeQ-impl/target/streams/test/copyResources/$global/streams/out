@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/anurag/barbeQ/barbeQ-impl/src/test/resources/cassandra.conf,/home/anurag/barbeQ/barbeQ-impl/target/scala-2.12/test-classes/cassandra.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/anurag/barbeQ/barbeQ-impl/src/test/resources/application.conf,/home/anurag/barbeQ/barbeQ-impl/target/scala-2.12/test-classes/application.conf)[0m
