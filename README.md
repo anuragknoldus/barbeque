@@ -17,3 +17,5 @@ export CASSANDRA_KEYSPACE_NAME_STORE_DATA="barbeque"
 export CASSANDRA_TABLE_NAME_STORE_DATA="barbequeOrderStore"
 
 export LAGOM_ASK_TIMEOUT="10s"
+
+This is under development and we will add some new features with along with CQRS which is already in the implementation.
